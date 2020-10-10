@@ -1,0 +1,17 @@
+{
+  "name": "google-tts-test",
+  "version": "1.0.0",
+  "description": "Google text to Speech Example",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server"
+  },
+  "author": "Kamran Balayev",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^5.1.1",
+    "@google-cloud/text-to-speech": "^3.0.1",
+    "express": "^4.17.1",
+    "xlsx-to-json": "^0.3.0"
+  }
+}
